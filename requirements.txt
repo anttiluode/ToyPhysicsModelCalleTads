@@ -1,0 +1,19 @@
+# Core numerical and plotting libraries
+numpy
+matplotlib
+scipy
+
+# Optional: Specify versions for better reproducibility (check your installed versions)
+# numpy>=1.21.0
+# matplotlib>=3.5.0
+# scipy>=1.7.0
+
+# IMPORTANT: CuPy (for GPU acceleration)
+# CuPy must be installed manually, matching your system's NVIDIA CUDA toolkit version.
+# It cannot be included directly here because the package name depends on the CUDA version.
+#
+# Examples (replace XXx with your CUDA version like 11x or 12x):
+#   pip install cupy-cuda11x
+#   pip install cupy-cuda12x
+#
+# See CuPy installation guide: https://docs.cupy.dev/en/stable/install.html
